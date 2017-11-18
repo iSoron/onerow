@@ -132,9 +132,7 @@ TEST(WedgeCutGenerator, generate_test_1)
 			rational(-14,25), rational(-7,2), rational(-7,5),
 			rational(-7,20), rational(-7,2), rational(-91,44),
 			rational(-7,40), rational(-91,12), rational(-21,8),
-			rational(0), rational(-35,3), rational(-35,4),
-//			rational(-21,10), rational(0), rational(-7,5),
-//			rational(-21,10), rational(-7,2), rational(0),
+			rational(0), rational(-35,3), rational(-35,4)
 	};
 
 	for(int i=0; i<3; i++)
@@ -145,24 +143,14 @@ TEST(WedgeCutGenerator, generate_test_1)
 		Constraint c;
 		c.pi.resize(3);
 		c.pi_zero = -1;
-		for(int j=0; j<3; j++)
-			c.pi.push(j, cut_matrix[i*3+j]);
+		for(int j=0; j<3; j++) c.pi.push(j, cut_matrix[i*3+j]);
 		expected_cuts.insert(c);
 	}
 
 	std::set<Constraint> actual_cuts;
 
 	WedgeCutGenerator wcg(r);
-	while(wcg.has_next())
-		actual_cuts.insert(*wcg.next());
-
-//	  cout << "EXPECTED:" << endl;
-//	  for(Constraint c : expected_cuts)
-//		cout << c << endl;
-//
-//	  cout << "ACTUAL:" << endl;
-//	  for(Constraint c : actual_cuts)
-//			cout << c << endl;
+	while(wcg.has_next()) actual_cuts.insert(*wcg.next());
 
 	EXPECT_TRUE(expected_cuts == actual_cuts);
 }
@@ -192,10 +180,7 @@ TEST(WedgeCutGenerator, generate_test_2)
 		Constraint c;
 		c.pi.resize(3);
 		c.pi_zero = -1;
-		for(int j=0; j<3; j++)
-		{
-			c.pi.push(j, cut_matrix[i*3+j]);
-		}
+		for(int j=0; j<3; j++) c.pi.push(j, cut_matrix[i*3+j]);
 		expected_cuts.insert(c);
 	}
 
@@ -203,14 +188,6 @@ TEST(WedgeCutGenerator, generate_test_2)
 	WedgeCutGenerator wcg(r);
 	while(wcg.has_next())
 		actual_cuts.insert(*wcg.next());
-
-//	  cout << "EXPECTED:" << endl;
-//	  for(Constraint c : expected_cuts)
-//		cout << c << endl;
-//
-//	  cout << "ACTUAL:" << endl;
-//	  for(Constraint c : actual_cuts)
-//			cout << c << endl;
 
 	EXPECT_TRUE(expected_cuts == actual_cuts);
 }
