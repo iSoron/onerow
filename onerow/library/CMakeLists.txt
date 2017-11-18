@@ -21,9 +21,7 @@ set(COMMON_SOURCES
     include/onerow/wedge_cut_generator.hpp)
 
 set(TEST_SOURCES
-    tests/knapsack2_test.cpp
     tests/rational_test.cpp
-    tests/single_row_generator_test.cpp
     tests/wedge_cut_generator_test.cpp)
 
 add_library(onerow_static ${COMMON_SOURCES})
