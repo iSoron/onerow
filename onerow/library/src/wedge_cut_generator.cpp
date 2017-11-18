@@ -284,7 +284,8 @@ void WedgeCutGenerator::eval_next()
 {
 	while (true)
 	{
-		if (0 <= cur_facet && cur_facet < (int) knapsack.list.size() && cur_facet <= MAX_CUT_DEPTH)
+		if (0 <= cur_facet && cur_facet < (int) knapsack.list.size() &&
+				cur_facet <= MAX_CUT_DEPTH)
 			break;
 
 		r1_offset++;
@@ -296,7 +297,7 @@ void WedgeCutGenerator::eval_next()
 		}
 
 		int r1_index = row.c.pi.index(r1_offset);
-		if(row.reduced_costs[r1_index] < row.cost_cutoff)
+		if (row.reduced_costs && row.reduced_costs[r1_index] < row.cost_cutoff)
 			continue;
 
 		r1[0] = -row.c.pi.value(r1_offset).reduce(REDUCE_FACTOR_R1);

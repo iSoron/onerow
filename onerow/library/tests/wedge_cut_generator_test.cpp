@@ -125,6 +125,7 @@ TEST(WedgeCutGenerator, generate_test_1)
 	r.c.pi.push(1, rational(-1));
 	r.c.pi.push(2, rational(1));
 	r.c.pi_zero = rational(5,7);
+    r.reduced_costs = 0;
 
 	std::set<Constraint> expected_cuts;
 	rational cut_matrix[] =  {
@@ -176,6 +177,7 @@ TEST(WedgeCutGenerator, generate_test_2)
 	r.c.pi.push(1, rational(-1));
 	r.c.pi.push(2, rational(1));
 	r.c.pi_zero = rational(1,2);
+    r.reduced_costs = 0;
 
 	set<Constraint> expected_cuts;
 	rational cut_matrix[] =  {
@@ -236,6 +238,7 @@ TEST(WedgeCutGenerator, generate_test_3)
 	r.c.pi.push(12, rational(237478,39665));
 	r.c.pi.push(13, rational(237478,39665));
 	r.c.pi_zero = rational(631975,707651);
+    r.reduced_costs = 0;
 
 	rational solution[14];
 	solution[0] = rational(0);
