@@ -1,0 +1,20 @@
+input_file:
+  running/msc98-ip.pre.mps.gz
+sol_value:
+  0: 19530897.712253
+  1: 19585779.104404
+  2: 19585856.651324
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    247
+  depth:
+    0: 224
+    1: 22
+    2: 1
+mip_value:
+  19839500.000000
+time: 26752.60

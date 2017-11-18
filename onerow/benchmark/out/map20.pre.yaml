@@ -1,0 +1,18 @@
+input_file:
+  running/map20.pre.mps.gz
+sol_value:
+  0: -998.836419
+  1: -997.296173
+  2: -997.296173
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    40
+  depth:
+    0: 40
+mip_value:
+  -922.000000
+time: 350.60

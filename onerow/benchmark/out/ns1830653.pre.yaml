@@ -1,0 +1,18 @@
+input_file:
+  running/ns1830653.pre.mps.gz
+sol_value:
+  0: 7083.000000
+  1: 8406.500000
+  2: 8406.500000
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    103
+  depth:
+    0: 103
+mip_value:
+  20622.000000
+time: 470.77

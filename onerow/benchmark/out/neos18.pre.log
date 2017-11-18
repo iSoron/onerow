@@ -1,0 +1,18 @@
+version: benchmark-99d69fb.run
+machine: cogradmac143
+[      0.00] Reading input file: running/neos18.pre.mps.gz...
+[      0.00] Fetched 3056 rows, 3816 cols.
+[      0.00] Solving first relaxation...
+[      0.20]     8.333333 [optimal]                    
+[      0.20] Reading basis...
+                                                       [      0.32] Generating MIR cuts...
+[      0.32] Finding interesting rows...
+[      1.73]     1838 rows found
+[      1.94]     9.000000 [optimal]                    
+                                                       [      3.42] Added 108 violated cuts...
+[      3.45]     9.000000 [optimal]                    
+[      3.45] Generating wedge cuts...
+ 11%  ETA: 2016-04-12 11:59:40  207 / 1838 21%  ETA: 2016-04-12 11:59:41  389 / 1838 27%  ETA: 2016-04-12 11:59:43  488 / 1838 30%  ETA: 2016-04-12 11:59:45  547 / 1838 36%  ETA: 2016-04-12 11:59:45  663 / 1838 46%  ETA: 2016-04-12 11:59:44  852 / 1838 54%  ETA: 2016-04-12 11:59:44  1001 / 1838 61%  ETA: 2016-04-12 11:59:45  1112 / 1838 67%  ETA: 2016-04-12 11:59:45  1231 / 1838 75%  ETA: 2016-04-12 11:59:45  1386 / 1838 80%  ETA: 2016-04-12 11:59:45  1468 / 1838 90%  ETA: 2016-04-12 11:59:45  1656 / 1838 98%  ETA: 2016-04-12 11:59:45  1809 / 1838                                                       [     52.13] Added 0 violated cuts...
+[     52.14]     9.000000 [optimal]                    
+[     52.14] Writting stats: out/neos18.yaml...
+[     52.14] Done.

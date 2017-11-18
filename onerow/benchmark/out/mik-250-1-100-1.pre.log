@@ -1,0 +1,27 @@
+version: benchmark-99d69fb.run
+machine: cogradmac143
+[      0.00] Reading input file: running/mik-250-1-100-1.pre.mps.gz...
+[      0.00] Fetched 100 rows, 352 cols.
+[      0.00] Solving first relaxation...
+[      0.00]     -79842.423635 [optimal]                    
+[      0.00] Reading basis...
+                                                       [      0.00] Generating MIR cuts...
+[      0.00] Finding interesting rows...
+[      0.14]     100 rows found
+[      0.32]     -72824.000000 [optimal]                    
+                                                       [      0.33] Added 100 violated cuts...
+[      0.33]     -72824.000000 [optimal]                    
+[      0.33] Generating wedge cuts...
+[      0.64]     -72659.578424 [optimal]                    
+[      1.06]     -72428.186935 [optimal]                    
+[      2.04]     -72034.085483 [optimal]                    
+[      2.72]     -71545.602680 [optimal]                    
+[      3.54]     -71273.915696 [optimal]                    
+ 33%  ETA: 2016-04-12 10:46:13  33 / 100[      4.12]     -71090.556565 [optimal]                    
+[      6.01]     -70648.288537 [optimal]                    
+[      7.84]     -70454.941796 [optimal]                    
+ 67%  ETA: 2016-04-12 10:46:12  67 / 100[      9.53]     -70272.362175 [optimal]                    
+                                                       [     11.00] Added 942 violated cuts...
+[     11.00]     -70219.174256 [optimal]                    
+[     11.00] Writting stats: out/mik-250-1-100-1.yaml...
+[     11.00] Done.

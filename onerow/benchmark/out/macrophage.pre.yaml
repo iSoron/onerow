@@ -1,0 +1,18 @@
+input_file:
+  running/macrophage.pre.mps.gz
+sol_value:
+  0: 0.000000
+  1: 38.833333
+  2: 38.833333
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    363
+  depth:
+    0: 363
+mip_value:
+  374.000000
+time: 1.48

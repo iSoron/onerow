@@ -1,0 +1,18 @@
+input_file:
+  running/neos-476283.pre.mps.gz
+sol_value:
+  0: 406.244708
+  1: 406.256374
+  2: 406.256374
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    36
+  depth:
+    0: 36
+mip_value:
+  406.363000
+time: 711.24

@@ -1,0 +1,18 @@
+input_file:
+  running/binkar10_1.pre.mps.gz
+sol_value:
+  0: 6637.188027
+  1: 6644.295373
+  2: 6644.295373
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    38
+  depth:
+    0: 38
+mip_value:
+  6742.200000
+time: 24.84

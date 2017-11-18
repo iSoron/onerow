@@ -1,0 +1,26 @@
+input_file:
+  running/mik-250-1-100-1.pre.mps.gz
+sol_value:
+  0: -79842.423635
+  1: -72824.000000
+  2: -70219.174256
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    1042
+  depth:
+    0: 100
+    1: 113
+    2: 305
+    3: 292
+    4: 150
+    5: 58
+    6: 18
+    7: 5
+    8: 1
+mip_value:
+  -66729.000000
+time: 11.00

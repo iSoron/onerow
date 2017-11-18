@@ -1,0 +1,19 @@
+input_file:
+  running/neos-916792.pre.mps.gz
+sol_value:
+  0: 26.283217
+  1: 26.509787
+  2: 26.510115
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    92
+  depth:
+    0: 91
+    1: 1
+mip_value:
+  31.870400
+time: 112.65

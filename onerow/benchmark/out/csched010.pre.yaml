@@ -1,0 +1,19 @@
+input_file:
+  running/csched010.pre.mps.gz
+sol_value:
+  0: 332.422727
+  1: 335.363758
+  2: 335.368221
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    87
+  depth:
+    0: 84
+    1: 3
+mip_value:
+  408.000000
+time: 647.40

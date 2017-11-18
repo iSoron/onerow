@@ -1,0 +1,18 @@
+input_file:
+  running/n4-3.pre.mps.gz
+sol_value:
+  0: 4933.823529
+  1: 5365.701682
+  2: 5365.701682
+sol_status:
+  0: optimal
+  1: optimal
+  2: optimal
+n_cuts:
+  total:
+    40
+  depth:
+    0: 40
+mip_value:
+  8993.000000
+time: 3.03
